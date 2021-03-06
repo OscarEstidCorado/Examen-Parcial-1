@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2_Oscar_Corado.MainPage">
+
+    <StackLayout>
+        <Label Text="Hola Quieres que adivine Tu Fecha de Cumpleaños" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Label Text="Piensa el dia de la fecha de tu cumpleaños" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Label Text="Bueno, el dia que pensaste mltiplicalo por 20:" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Label Text="Listo, ahora sumale 73" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Label Text="Ahora multiplicalo por 5" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Label Text="Ahora sumale el mes de tu cumpleaños" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Entry Placeholder="Ahora ingresa el resultado de toda la operacion" HorizontalOptions="Center" VerticalOptions="Center" x:Name="Resultado"/>
+        <Button Text="Aceptar" HorizontalOptions="Center" VerticalOptions="Center" Clicked="Button_Clicked"/>
+        <Entry Placeholder="Su fecha de Nacimiento es " x:Name="x"/>
+        <Entry Placeholder="Su mes de Nacimiento es " x:Name="y"/>
+
+
+
+    </StackLayout>
+
+</ContentPage>
